@@ -1,0 +1,133 @@
+body {
+    position: relative;
+    padding-top: 300px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+a {
+    color: mediumseagreen;
+    font-size: large;
+}
+
+a:hover {
+    color: mediumseagreen;
+    text-decoration: none;
+
+
+    -ms-transform: rotate(10deg) scale(1.2); /* IE 9 */
+    -webkit-transform: rotate(10deg) scale(1.2); /* Chrome, Safari, Opera */
+    transform: rotate(10deg) scale(1.2);
+
+}
+
+ul {
+    position: relative;
+    padding-right: 40px;
+    margin-right: 10px;
+}
+
+ul li {
+    padding: 10px;
+    position: relative;
+    display: inline-flex;
+}
+
+.main {
+    position: relative;
+    text-align: center;
+    margin: 10px;
+    padding: 200px;
+}
+
+.transbox {
+    margin: 300px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.transbox p {
+    margin: 5%;
+    color: #000000;
+}
+
+#primary_nav_wrap
+{
+    margin-top:15px;
+    text-align:center;
+
+}
+
+#primary_nav_wrap ul
+{
+    color: red;
+    list-style:none;
+    position:relative;
+    font-size: large;
+    margin:0;
+    padding:0;
+}
+
+#primary_nav_wrap ul a
+{
+    display:block;
+    text-decoration:none;
+    font-weight:700;
+    line-height:32px;
+    padding:0 15px;
+    //font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#primary_nav_wrap ul li
+{
+    position:relative;
+    #float:left;
+    margin:0;
+    padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+    background:#ddd
+}
+
+#primary_nav_wrap ul li:hover
+{
+    background:#f6f6f6
+}
+
+#primary_nav_wrap ul ul
+{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#fff;
+    padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+    float:none;
+    width:130px
+}
+
+#primary_nav_wrap ul ul a
+{
+    line-height:120%;
+    padding:10px 15px;
+    color: mediumpurple;
+    font-size: 13px;
+}
+
+#primary_nav_wrap ul ul ul
+{
+    top:0;
+    left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+    display:block
+}
